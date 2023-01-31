@@ -4,8 +4,6 @@ button.map(button =>{
     button.addEventListener('click',(e)=>{
         switch(e.target.innerText){
             case 'C':
-                display.innerText='';
-                break;
             case 'AC':
                 display.innerText='';
                 break;
